@@ -1,0 +1,15 @@
+IMAGE_SIZE_BASE64 = ('base64', 0)
+IMAGE_SIZE_EXTRA_SMALL = ('xs', 1)
+IMAGE_SIZE_SMALL = ('s', 2)
+IMAGE_SIZE_MEDIUM = ('m', 3)
+IMAGE_SIZE_LARGE = ('l', 4)
+IMAGE_SIZE_ORG = ('org', 5)
+
+CONTENT_TYPE_UNKNOWN = 0
+CONTENT_TYPE_MEDIA = 1
+CONTENT_TYPE_TIMELINE = 2
+CONTENT_TYPE_NOTE = 3
+CONTENT_TYPE_LIST = [(CONTENT_TYPE_UNKNOWN, 'Unknown'),
+                     (CONTENT_TYPE_MEDIA, 'Media'),
+                     (CONTENT_TYPE_NOTE, 'Note'),
+                     (CONTENT_TYPE_TIMELINE, 'Timeline')]

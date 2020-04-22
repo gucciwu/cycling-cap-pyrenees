@@ -1,0 +1,12 @@
+python-dateutil
+django
+djangorestframework
+django-cors-headers
+djangorestframework_simplejwt
+djangorestframework_camel_case
+pymysql
+gunicorn
+docutils
+drf-yasg
+pytz
+
